@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- open graph -->
+    <meta property='og:title' content='Spessasus website' />
+    <meta property='og:site_name' content='Spessasus' />
+    <meta property='og:description' content='My website' />
+    <meta property='og:url' content='https://spessasus.github.io/' />
+    <meta property="og:type" content="website" />
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Spessasus website">
+    <meta name="twitter:description" content="My website">
+    <!-- for search engines -->
+    <meta name='description' content='My website, not really related to spessasynth.' />
+    <meta name='author' content='spessasus' />
+    <link rel="stylesheet" href="style.css">
+    <title>Spessasus website</title>
+</head>
+<body>
+<img src="81.jpg" alt="train" class="bg">
+<div class="wrap">
+    <div class="main">
+        <h1>Welcome</h1>
+        <h2>You have reached my personal website</h2>
+        <h2>You are probably looking for <a href="https://spessasus.github.io/SpessaSynth">SpessaSynth</a></h2>
+        <p>
+            If not, then keep on reading!
+        </p>
+        <h3>The Train</h3>
+        <p>
+            But let's talk a bit about this train in the background first.
+            It is called (I believe) <b>Metrowagonmash 81-572.2</b>.
+            This is the modernized version of the infamous <b>81–717.3</b>, operated by the Warsaw Metro.
+            Well, it isn't anymore, as it was replaced by a new <b>Škoda Varsovia</b> model.
+            It was my favorite metro train to commute with (mostly because of the looks), but oh well, it's gone now.
+            I guess Škoda is fine too.
+        </p>
+        <h3>About Me</h3>
+        <p>
+            Now that that's out of the way, I guess it's time to write a bit about myself.
+            I'm from Poland (as you might've guessed since I've talked about a Warsaw train), and I'm 19 as of writing this.
+            And I also like programming, which is what I do that in my free time, mostly working on SpessaSynth.
+            Other than that, I enjoy gaming and music. Really generic, I know.
+        </p>
+        <h3>How I Got Into Programming</h3>
+        <h4>The Beginning</h4>
+        <p>
+            When I was in primary school, my IT grades were terrible, mostly because of my laziness.
+            One day, my classmate suggested to me that I should attend additional classes about programming.
+            I was intrigued, and so I agreed, joining the class, where we learnt Scratch language.
+        </p>
+        <h4>The Middle</h4>
+        <p>
+            I immediately got into Scratch, as it was straightforward and intuitive, started to code games and other projects.
+            Looking back, they were not very good...
+            <br/><br/>
+            After some time, I tried to move to a real programming language. I chose C++, which was not a very good decision.
+            Why? <i>Just because the name sounded cool...</i> Yeah, I got stuck on pointers and OOP and quickly gave up, returning to Scratch.
+            <br/><br/>
+            Then I got a Python book and started coding in there, mostly some basic console apps like calculator,
+            later using tkinter and making some desktop apps.
+        </p>
+        <h4>The JavaScript Phase</h4>
+        <p>
+            Now this is where things get interesting.<br/><br/>
+            I started to learn JavaScript in school, playing with some basics like changing element's text and things like that,
+            even making a fake "Captcha" button that changed the box to a GIF and then a checkmark.
+            I also was learning PHP at school, so I was combining the two for school projects for higher grades.
+            It still was basic stuff though, like <span class="mono">$(element).load("getclients.php");</span>, so nothing special.
+            <br/><br/>
+            Then YouTube decided to recommend me a video titled <i>"Bad Apple!!"</i>
+        </p>
+        <h4>The Bad Apple</h4>
+        <p>
+            As dumb as it may sound, this video made me create my first proper JS project.
+            You see, this video is famous for being recreated in various things not meant for playing videos.
+            I wanted to try this too, and I decided to replicate it via text. The final result was quite cool, but also horribly inefficient.
+            All the frames were stored as one massive JSON file containing all the frames as string!
+            Nevertheless, it taught me how to properly calculate time, play audio, read JSON and stuff.
+            <br/><br/>
+            After that, my projects only grew bigger.
+            At school, we have been assigned a basic JS and PHP project which I took very ambitiously:
+            I've added a loading screen for waiting for the server to process the request, animations,
+            registration prompt with username availability checking, checksums, and more.
+            <br/><br/>
+            I even tried to make a Discord clone with image support, pinging support and even a mobile app in C#!
+            (You can view the project <a href="https://github.com/spessasus/Chatobahn">here</a> btw.
+            Also I've created <a href="https://github.com/spessasus/Chatobahn/blob/a41d2eb6a86d2d48076567182c39808c811ae0e7/backend/get_conversations.php#L17">my longest SQL statement</a> there)
+        </p>
+        <h4>The Audio Visualizer</h4>
+        <p>
+            So I was really getting into a game series called <i>"Touhou Project"</i> (which the Bad Apple video came from)
+            and really enjoying the soundtrack (you should really give it a listen btw, it's amazing).
+            I started a project called "audio visualizer" which was, well... an audio visualizer.
+            It used an <span class="mono">AnalyserNode</span> and simply drew the FFT data on the screen,
+            using a library called "jsmediatags" to extract album cover and draw it too.
+            The project had quite a few visualization modes, and I was ready to move on.
+            <br/><br/>
+            Then I stumbled upon <a href="https://www.shrinemaiden.org/forum/index.php?topic=18989.0">this post,</a>
+            thus discovering the existence of MIDI files.
+        </p>
+        <h3>SpessaSynth</h3>
+        <p>
+            So I tried playing the MIDIs, and it was fine.
+            But I kind of wanted to add MIDI support, so I created a folder called "midi_tester" which would later become SpessaSynth.
+        </p>
+        <p>
+            The start was rough. I didn't know anything about binary or music at all, so it was a mess.
+            I tried ChatGPT's help and it kind of did. I could now play a format 0 MIDI file using... triangle waves.
+            It sounded bad, but it worked. So I pressed on.
+            I've added visualizations of the falling notes and shared the following screenshots with my friends:
+        </p>
+        <div class="gallery">
+            <img src="gallery/image0.png" alt="first ever spessasynth screenshot">
+            <img src="gallery/image1.png" alt="second ever spessasynth screenshot">
+        </div>
+        <p>
+            I continued to add more: keyboard, time selection, text events, pitch bends...
+
+            But there was still one issue. The sound was bad! All it could do was play triangle waves.
+            No drums, no nothing!
+
+            So I asked ChatGPT for the solution and it proposed <strong>SoundFonts!</strong>
+        </p>
+        <p>
+            So I got to work on them.
+            The first success I had was playing the samples with loops, without any param data.
+            I've recorded it to share with friends, making it the first recording of SpessaSynth:
+        </p>
+        <video controls><source src="gallery/2023-05-05%2019-18-50.mp4"></video>
+        <p>
+            And the rest is history. A history with lots of ups and downs, but still!
+            Fast-forward around 1,5 years later, and I'm still working on the "midi_tester" to this day...
+        </p>
+        <p>
+            So, thank you for reading all the way down here!
+            I hope this chunk of text wasn't too boring to read.
+            I might expand this later with more about how I developed SpessaSynth,
+            the issues I faced and how this project quickly became my largest one ever.
+        </p>
+        <p>
+            <i>Have fun with SpessaSynth,<br>
+            ~ spessasus</i>
+        </p>
+    </div>
+</div>
+</body>
+</html>
