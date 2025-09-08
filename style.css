@@ -23,9 +23,7 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-image: url('https://private-user-images.githubusercontent.com/95608008/425873422-42f5cf2d-0b5b-492d-8929-064d55d8c11f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTczNDYyMjYsIm5iZiI6MTc1NzM0NTkyNiwicGF0aCI6Ii85NTYwODAwOC80MjU4NzM0MjItNDJmNWNmMmQtMGI1Yi00OTJkLTg5MjktMDY0ZDU1ZDhjMTFmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA4VDE1Mzg0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThmZGY5NzYxMjI5ZWVlYWNmNjBmMWE3ZmVkM2FlM2RjNzgxMzIxNWM2MDZiZWY0NjhlNTRhNDI0MDdmYjdlOWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-b_XBwHLf-_apk9388srhgWHOQ3bgmOxWjcnv7XpJ9o');
-    backdrop-filter: blur(30px) brightness(0.5);
-    background-position: center center;
+    background: #000;
 }
 
 .profile {
